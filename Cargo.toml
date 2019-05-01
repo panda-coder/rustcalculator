@@ -1,0 +1,11 @@
+[package]
+name = "rustcalculator"
+version = "0.1.0"
+authors = ["Ercy Moreira Neto <fireball.vb@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+
+[dependencies.gtk]
+version = "0.6.0"
+features = ["v3_16"]
