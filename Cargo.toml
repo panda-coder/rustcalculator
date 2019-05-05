@@ -5,7 +5,11 @@ authors = ["Ercy Moreira Neto <fireball.vb@gmail.com>"]
 edition = "2018"
 
 [dependencies]
+config = "0.9"
 
 [dependencies.gtk]
 version = "0.6.0"
 features = ["v3_16"]
+
+[dependencies.gio]
+version = "0.6.0"
